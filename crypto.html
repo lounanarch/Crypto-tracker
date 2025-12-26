@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="crypto.css">
+</head>
+<body>
+      
+    </style>
+   
+<div id="cryptoGrid"></div>
+
+
+    <div class="container">
+        <div class="header">
+            <h1>Crypto Price Tracker</h1>
+            <p class="real"><b>
+            Real-time cryptocurrency prices and market data</b></p>
+
+            <div class="controls">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="search cryptocurrencies......" id="searchInput">
+                
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+<path d="M 21 3 C 11.622998 3 4 10.623005 4 20 C 4 29.376995 11.622998 37 21 37 C 24.712383 37 28.139151 35.791079 30.9375 33.765625 L 44.085938 46.914062 L 46.914062 44.085938 L 33.886719 31.058594 C 36.443536 28.083 38 24.223631 38 20 C 38 10.623005 30.377002 3 21 3 z M 21 5 C 29.296122 5 36 11.703883 36 20 C 36 28.296117 29.296122 35 21 35 C 12.703878 35 6 28.296117 6 20 C 6 11.703883 12.703878 5 21 5 z"></path>
+</svg>
+             
+                   
+                </svg>
+                <div>
+                    <button class="refresh-Btn" id="refreshBtn">
+                 <svg class="refresh-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 32 32">
+<path d="M 16 4 C 10.886719 4 6.617188 7.160156 4.875 11.625 L 6.71875 12.375 C 8.175781 8.640625 11.710938 6 16 6 C 19.242188 6 22.132813 7.589844 23.9375 10 L 20 10 L 20 12 L 27 12 L 27 5 L 25 5 L 25 8.09375 C 22.808594 5.582031 19.570313 4 16 4 Z M 25.28125 19.625 C 23.824219 23.359375 20.289063 26 16 26 C 12.722656 26 9.84375 24.386719 8.03125 22 L 12 22 L 12 20 L 5 20 L 5 27 L 7 27 L 7 23.90625 C 9.1875 26.386719 12.394531 28 16 28 C 21.113281 28 25.382813 24.839844 27.125 20.375 Z"></path>
+</svg>
+           
+        </div>
+       
+
+                 </button>
+                </div>
+                    <div class="last-updated" id="lastUpdated"></div>
+                    <div class="loading-grid" id="leadingGrid">
+                      
+                        
+                    </div>
+               
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="crypto.js"></script>
+</body>
+</html>
